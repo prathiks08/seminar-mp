@@ -1,0 +1,137 @@
+/* Seminar Hall Booking Website */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f3f6f1;
+  color: #243b32;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #174a3a;
+  color: white;
+  text-align: center;
+  padding: 36px 20px;
+}
+
+header h1 { margin: 0; }
+header p { margin-bottom: 0; }
+
+nav {
+  background-color: #28694c;
+  text-align: center;
+  padding: 14px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 14px;
+}
+
+nav a:hover, footer a:hover { text-decoration: underline; }
+
+main {
+  width: 85%;
+  max-width: 900px;
+  margin: 24px auto;
+}
+
+section {
+  background-color: white;
+  padding: 22px;
+  margin-bottom: 20px;
+  border: 1px solid #d4dfd4;
+  border-radius: 8px;
+}
+
+h2 { color: #174a3a; }
+
+ul { padding-left: 24px; }
+li { margin: 6px 0; }
+
+#facilities ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+#facilities li {
+  flex: 1 1 200px;
+  margin: 0;
+  padding: 10px;
+  background-color: #edf3ed;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 18px;
+}
+
+caption {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+th, td {
+  border: 1px solid #cbd8cc;
+  padding: 9px;
+  text-align: left;
+}
+
+th { background-color: #edf3ed; }
+
+form { max-width: 560px; }
+
+label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #aebdaf;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+button {
+  margin-top: 16px;
+  padding: 11px 18px;
+  background-color: #28694c;
+  color: white;
+  border: 0;
+  border-radius: 4px;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:hover { background-color: #174a3a; }
+.note { font-size: 0.9em; color: #58685d; }
+
+footer {
+  background-color: #174a3a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p { margin: 5px; }
+footer a { color: white; }
+footer small { display: block; margin-top: 10px; }
+
+@media (max-width: 600px) {
+  nav a { display: inline-block; margin: 5px 9px; }
+  main { width: 92%; }
+  section { padding: 17px; }
+  th, td { padding: 7px; }
+}
